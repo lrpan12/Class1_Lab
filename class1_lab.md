@@ -11,3 +11,8 @@ income1<-data.frame("id"=c(1:20),
 head(income1)
 summary(income1)
 ```
+income2<-data.frame("id"=c(101:120),
+                          "income_usd"=rep(10000, 20), 
+                          "educ_yr"=sample(0:16,20,replace=T) )
+head(income2)
+summary(income2)
